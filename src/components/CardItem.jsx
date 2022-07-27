@@ -49,7 +49,7 @@ const CardItem = ({ product, basket, setBasket, total, money }) => {
           onClick={removeBasket}
           className={"btn btn-sell"}
         >
-          Interest
+          Remove
         </button>
         <span>{basketItem ? basketItem.amount : 0}</span>
         <button
